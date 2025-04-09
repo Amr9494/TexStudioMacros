@@ -20,6 +20,6 @@
         "\t\\label{fig:}",
         "\\end{figure}"
     ],
-    "trigger": "subfig\\t",
+    "trigger": "subfi\\t",
     "type": "Snippet"
 }

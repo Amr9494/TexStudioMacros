@@ -95,7 +95,7 @@ triggers = {
 % Font operations
 "bf", "\\mathbf{%|}";
 "mrm", "\\mathrm{%|}";
-"bs", "\\\boldsymbol{%|}";
+"bs", "\\boldsymbol{%|}";
 
 % Symbol operations
 "hat", "\\hat{%|}";

@@ -8,7 +8,7 @@
     "name": "bs",
     "shortcut": "",
     "tag": [
-        "\\\boldsymbol{%|}"
+        "\\boldsymbol{%|}"
     ],
     "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)bs",
     "type": "Snippet"
