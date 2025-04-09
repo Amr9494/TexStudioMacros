@@ -1,0 +1,19 @@
+{
+    "abbrev": "",
+    "description": [
+        "pmat\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "pmat\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "\t\\begin{pmatrix}",
+        "      %|",
+        "    \\end{pmatrix}\t",
+        "\\end{equation}"
+    ],
+    "trigger": "pmat\t",
+    "type": "Snippet"
+}

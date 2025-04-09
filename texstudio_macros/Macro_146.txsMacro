@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "JJb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "JJb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{J}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)JJb",
+    "type": "Snippet"
+}

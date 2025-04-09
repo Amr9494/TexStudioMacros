@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "nu + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "nu",
+    "shortcut": "",
+    "tag": [
+        "\\nu"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)nu",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "om + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "om",
+    "shortcut": "",
+    "tag": [
+        "\\omega"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)om",
+    "type": "Snippet"
+}

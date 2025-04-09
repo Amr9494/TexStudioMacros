@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Ic + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Ic",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{I}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ic",
+    "type": "Snippet"
+}

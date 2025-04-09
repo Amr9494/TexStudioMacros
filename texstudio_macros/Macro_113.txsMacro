@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Cc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Cc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{C}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Cc",
+    "type": "Snippet"
+}

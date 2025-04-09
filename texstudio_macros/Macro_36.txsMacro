@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Sig + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Sig",
+    "shortcut": "",
+    "tag": [
+        "\\Sigma"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Sig",
+    "type": "Snippet"
+}

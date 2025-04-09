@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "TTb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "TTb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{T}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)TTb",
+    "type": "Snippet"
+}

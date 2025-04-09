@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Dc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Dc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{D}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Dc",
+    "type": "Snippet"
+}

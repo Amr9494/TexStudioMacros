@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Ac + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Ac",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{A}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ac",
+    "type": "Snippet"
+}

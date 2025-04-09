@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Ga + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Ga",
+    "shortcut": "",
+    "tag": [
+        "\\Gamma"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ga",
+    "type": "Snippet"
+}

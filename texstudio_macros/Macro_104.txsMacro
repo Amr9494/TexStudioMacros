@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "and + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "and",
+    "shortcut": "",
+    "tag": [
+        "\\cap"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)and",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "th + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "th",
+    "shortcut": "",
+    "tag": [
+        "\\theta"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)th",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ">= + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": ">=",
+    "shortcut": "",
+    "tag": [
+        "\\geq"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)>=",
+    "type": "Snippet"
+}

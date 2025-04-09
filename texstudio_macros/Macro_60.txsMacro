@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ln + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ln",
+    "shortcut": "",
+    "tag": [
+        "\ln(%|)"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ln",
+    "type": "Snippet"
+}

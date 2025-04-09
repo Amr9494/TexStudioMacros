@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "us + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "us",
+    "shortcut": "",
+    "tag": [
+        "\\underset{ }{ %| }"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)us",
+    "type": "Snippet"
+}

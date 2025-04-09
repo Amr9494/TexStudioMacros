@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Hc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Hc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{H}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Hc",
+    "type": "Snippet"
+}

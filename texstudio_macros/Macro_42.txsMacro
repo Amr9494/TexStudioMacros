@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "eta + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "eta",
+    "shortcut": "",
+    "tag": [
+        "\\eta"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)eta",
+    "type": "Snippet"
+}

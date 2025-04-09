@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "orr + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "orr",
+    "shortcut": "",
+    "tag": [
+        "\\cup"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)orr",
+    "type": "Snippet"
+}

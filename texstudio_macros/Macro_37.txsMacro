@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "up + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "up",
+    "shortcut": "",
+    "tag": [
+        "\\upsilon"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)up",
+    "type": "Snippet"
+}

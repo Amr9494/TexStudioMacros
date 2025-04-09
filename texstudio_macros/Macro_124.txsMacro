@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Nc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Nc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{N}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Nc",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "und + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "und",
+    "shortcut": "",
+    "tag": [
+        "\\underline{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)und",
+    "type": "Snippet"
+}

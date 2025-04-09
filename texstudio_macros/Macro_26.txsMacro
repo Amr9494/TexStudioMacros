@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "va + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "va",
+    "shortcut": "",
+    "tag": [
+        "\\varepsilon"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)va",
+    "type": "Snippet"
+}

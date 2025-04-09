@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "HHb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "HHb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{H}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)HHb",
+    "type": "Snippet"
+}

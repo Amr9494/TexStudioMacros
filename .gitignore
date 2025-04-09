@@ -1,0 +1,10 @@
+*.mat
+*.aux
+*.bkp
+*.synctex.gz
+*.out
+*.log
+*.temp 
+*.xml
+*.bbl
+*.blg

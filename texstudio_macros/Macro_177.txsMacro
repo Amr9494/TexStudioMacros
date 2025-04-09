@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ceil + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ceil",
+    "shortcut": "",
+    "tag": [
+        "\\lceil %| \\rceil"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ceil",
+    "type": "Snippet"
+}

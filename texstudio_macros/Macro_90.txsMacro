@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "cd + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "cd",
+    "shortcut": "",
+    "tag": [
+        "\\cdot"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cd",
+    "type": "Snippet"
+}

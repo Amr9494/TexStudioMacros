@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "io + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "io",
+    "shortcut": "",
+    "tag": [
+        "\\iota"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)io",
+    "type": "Snippet"
+}

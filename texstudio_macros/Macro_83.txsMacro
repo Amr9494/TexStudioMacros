@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "pm + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "pm",
+    "shortcut": "",
+    "tag": [
+        "\\pm"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)pm",
+    "type": "Snippet"
+}

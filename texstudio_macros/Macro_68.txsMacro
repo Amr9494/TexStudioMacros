@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "dot + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "dot",
+    "shortcut": "",
+    "tag": [
+        "\\dot{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)dot",
+    "type": "Snippet"
+}

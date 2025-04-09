@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "AAb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "AAb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{A}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)AAb",
+    "type": "Snippet"
+}

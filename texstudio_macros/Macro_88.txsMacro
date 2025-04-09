@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "nabla + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "nabla",
+    "shortcut": "",
+    "tag": [
+        "\\nabla"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)nabla",
+    "type": "Snippet"
+}

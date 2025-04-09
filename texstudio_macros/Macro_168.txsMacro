@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "inti + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "inti",
+    "shortcut": "",
+    "tag": [
+        "\iint"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)inti",
+    "type": "Snippet"
+}

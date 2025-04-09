@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "XXb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "XXb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{X}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)XXb",
+    "type": "Snippet"
+}

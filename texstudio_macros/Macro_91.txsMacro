@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "vd + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "vd",
+    "shortcut": "",
+    "tag": [
+        "\\vdots"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)vd",
+    "type": "Snippet"
+}

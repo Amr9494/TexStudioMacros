@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ddo + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ddo",
+    "shortcut": "",
+    "tag": [
+        "\\ddot{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ddo",
+    "type": "Snippet"
+}

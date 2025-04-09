@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "inn + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "inn",
+    "shortcut": "",
+    "tag": [
+        "\\in"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)inn",
+    "type": "Snippet"
+}

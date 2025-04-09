@@ -1,0 +1,25 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Subfig",
+    "shortcut": "",
+    "tag": [
+        "\\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}",
+        "\\begin{figure}[!t]",
+        "\t\\centering",
+        "\t\\subfloat[]{\\includegraphics[width=0.7\\columnwidth]{%|}",
+        "\t\t\\label{}}",
+        "\t\\hfil",
+        "\t\\subfloat[]{\\includegraphics[width=0.15\\columnwidth]{}",
+        "\t\t\\label{}}",
+        "\t\\caption{}",
+        "\t\\label{fig:}",
+        "\\end{figure}"
+    ],
+    "trigger": "subfig\\t",
+    "type": "Snippet"
+}

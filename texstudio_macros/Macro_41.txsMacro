@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "pi + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "pi",
+    "shortcut": "",
+    "tag": [
+        "\\pi"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)pi",
+    "type": "Snippet"
+}

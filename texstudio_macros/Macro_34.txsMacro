@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Lam + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Lam",
+    "shortcut": "",
+    "tag": [
+        "\\Lambda"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Lam",
+    "type": "Snippet"
+}

@@ -1,0 +1,19 @@
+{
+    "abbrev": "",
+    "description": [
+        "Bmat\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Bmat\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "\t\\begin{Bmatrix}",
+        "      %|",
+        "    \\end{Bmatrix}\t",
+        "\\end{equation}"
+    ],
+    "trigger": "Bmat\t",
+    "type": "Snippet"
+}

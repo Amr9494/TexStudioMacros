@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "RRb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "RRb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{R}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)RRb",
+    "type": "Snippet"
+}

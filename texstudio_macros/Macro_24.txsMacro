@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "De + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "De",
+    "shortcut": "",
+    "tag": [
+        "\\Delta"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)De",
+    "type": "Snippet"
+}

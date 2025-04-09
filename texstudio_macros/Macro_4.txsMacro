@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "mt + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Inline math",
+    "shortcut": "",
+    "tag": [
+        "$%|$"
+    ],
+    "trigger": "mt\\t",
+    "type": "Snippet"
+}

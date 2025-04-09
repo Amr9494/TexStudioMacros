@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "double space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "space",
+    "shortcut": "",
+    "tag": [
+        " & "
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split)  ",
+    "type": "Snippet"
+}

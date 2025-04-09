@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "al + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "al",
+    "shortcut": "",
+    "tag": [
+        "\\alpha"
+    ],
+    "trigger": "(?inEnv:math)al",
+    "type": "Snippet"
+}

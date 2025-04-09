@@ -1,0 +1,19 @@
+{
+    "abbrev": "",
+    "description": [
+        "array\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "array\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "   \\begin{array}",
+        "    %|",
+        "   \\end{array}",
+        "\\end{equation}"
+    ],
+    "trigger": "array\t",
+    "type": "Snippet"
+}

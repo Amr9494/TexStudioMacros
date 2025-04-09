@@ -1,0 +1,20 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "split",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "   \\begin{split}",
+        "       %|",
+        "   \\end{split}",
+        "\\end{equation}",
+        ""
+    ],
+    "trigger": "split\\t",
+    "type": "Snippet"
+}

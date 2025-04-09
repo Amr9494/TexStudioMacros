@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "invs + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "invs",
+    "shortcut": "",
+    "tag": [
+        "^{-1}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)invs",
+    "type": "Snippet"
+}

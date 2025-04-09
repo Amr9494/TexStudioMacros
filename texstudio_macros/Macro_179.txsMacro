@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "mod + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "mod",
+    "shortcut": "",
+    "tag": [
+        "|%||"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mod",
+    "type": "Snippet"
+}

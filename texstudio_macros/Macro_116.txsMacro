@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Fc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Fc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{F}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Fc",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "=sub + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "=sub",
+    "shortcut": "",
+    "tag": [
+        "\\subseteq"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=sub",
+    "type": "Snippet"
+}

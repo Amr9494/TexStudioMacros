@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Rc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Rc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{R}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Rc",
+    "type": "Snippet"
+}

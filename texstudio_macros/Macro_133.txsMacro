@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Wc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Wc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{W}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Wc",
+    "type": "Snippet"
+}

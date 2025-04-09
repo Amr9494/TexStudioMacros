@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "conj + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "conj",
+    "shortcut": "",
+    "tag": [
+        "^{*}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)conj",
+    "type": "Snippet"
+}

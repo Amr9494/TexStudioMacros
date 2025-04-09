@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "cb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "cb",
+    "shortcut": "",
+    "tag": [
+        "^{3}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cb",
+    "type": "Snippet"
+}

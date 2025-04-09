@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Lc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Lc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{L}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Lc",
+    "type": "Snippet"
+}

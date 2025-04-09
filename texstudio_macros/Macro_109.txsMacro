@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "=su + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "=su",
+    "shortcut": "",
+    "tag": [
+        "\\supseteq"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=su",
+    "type": "Snippet"
+}

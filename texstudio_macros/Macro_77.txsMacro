@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ooo + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ooo",
+    "shortcut": "",
+    "tag": [
+        "\\infty"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ooo",
+    "type": "Snippet"
+}

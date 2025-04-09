@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Gc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Gc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{G}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Gc",
+    "type": "Snippet"
+}

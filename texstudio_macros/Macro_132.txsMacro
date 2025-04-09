@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Vc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Vc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{V}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Vc",
+    "type": "Snippet"
+}

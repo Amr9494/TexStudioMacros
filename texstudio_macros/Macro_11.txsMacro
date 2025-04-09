@@ -1,0 +1,19 @@
+{
+    "abbrev": "",
+    "description": [
+        "matrix\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "matrix\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "\t\\begin{matrix}",
+        "      %|",
+        "    \\end{matrix}\t",
+        "\\end{equation}"
+    ],
+    "trigger": "matrix\t",
+    "type": "Snippet"
+}

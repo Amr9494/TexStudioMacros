@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "VVb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "VVb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{V}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)VVb",
+    "type": "Snippet"
+}

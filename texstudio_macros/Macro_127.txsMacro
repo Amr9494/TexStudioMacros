@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Qc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Qc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{Q}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Qc",
+    "type": "Snippet"
+}

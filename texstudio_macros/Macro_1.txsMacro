@@ -1,0 +1,20 @@
+{
+    "abbrev": "Fig",
+    "description": [
+        "add Figure "
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Figure",
+    "shortcut": "",
+    "tag": [
+        "\\begin{figure}[%|]",
+        "\t\t\\centering",
+        "\t\t\\includegraphics[width=\\columnwidth]{}",
+        "\t\t\\caption{}",
+        "\t\t\\label{}",
+        "\\end{figure}"
+    ],
+    "trigger": "fig\\t",
+    "type": "Snippet"
+}

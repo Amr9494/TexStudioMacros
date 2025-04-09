@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "avg + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "avg",
+    "shortcut": "",
+    "tag": [
+        "\\angle %| \\rangle"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)avg",
+    "type": "Snippet"
+}

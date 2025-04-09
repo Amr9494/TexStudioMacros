@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "rho + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "rho",
+    "shortcut": "",
+    "tag": [
+        "\\rho"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)rho",
+    "type": "Snippet"
+}

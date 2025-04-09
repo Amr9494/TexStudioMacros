@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "infi + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "infi",
+    "shortcut": "",
+    "tag": [
+        "\int_{-\\infty}^{\\infty} %| "
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)infi",
+    "type": "Snippet"
+}

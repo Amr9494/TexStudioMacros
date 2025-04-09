@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Phi + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Phi",
+    "shortcut": "",
+    "tag": [
+        "\\Phi"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Phi",
+    "type": "Snippet"
+}

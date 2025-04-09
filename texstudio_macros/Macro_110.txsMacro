@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "eset + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "eset",
+    "shortcut": "",
+    "tag": [
+        "\\emptyset"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)eset",
+    "type": "Snippet"
+}

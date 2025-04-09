@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "lrbar + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "lrbar",
+    "shortcut": "",
+    "tag": [
+        "\\left| %| \\right|"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrbar",
+    "type": "Snippet"
+}

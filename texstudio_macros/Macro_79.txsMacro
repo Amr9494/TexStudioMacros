@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "prod + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "prod",
+    "shortcut": "",
+    "tag": [
+        "\\prod"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)prod",
+    "type": "Snippet"
+}

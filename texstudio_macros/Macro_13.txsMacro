@@ -1,0 +1,20 @@
+{
+    "abbrev": "",
+    "description": [
+        "cases\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "cases\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "   \\begin{cases}",
+        "    %|",
+        "   \\end{cases}",
+        "\\end{equation}",
+        ""
+    ],
+    "trigger": "cases\t",
+    "type": "Snippet"
+}

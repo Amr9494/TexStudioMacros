@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "norm + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "norm",
+    "shortcut": "",
+    "tag": [
+        "\\lvert %| \\rvert"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)norm",
+    "type": "Snippet"
+}

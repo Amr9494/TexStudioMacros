@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Psi + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Psi",
+    "shortcut": "",
+    "tag": [
+        "\\Psi"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Psi",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Bc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Bc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{B}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Bc",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "mu + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "mu",
+    "shortcut": "",
+    "tag": [
+        "\\mu"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mu",
+    "type": "Snippet"
+}

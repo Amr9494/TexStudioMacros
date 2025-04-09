@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "vec + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "vec",
+    "shortcut": "",
+    "tag": [
+        "\\vec{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)vec",
+    "type": "Snippet"
+}

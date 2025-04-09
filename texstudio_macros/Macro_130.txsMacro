@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Tc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Tc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{T}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Tc",
+    "type": "Snippet"
+}

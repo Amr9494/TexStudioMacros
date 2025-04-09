@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "hat + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "hat",
+    "shortcut": "",
+    "tag": [
+        "\\hat{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)hat",
+    "type": "Snippet"
+}

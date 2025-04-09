@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Sc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Sc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{S}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Sc",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "tan + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "tan",
+    "shortcut": "",
+    "tag": [
+        "\\tan(%|)"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)tan",
+    "type": "Snippet"
+}

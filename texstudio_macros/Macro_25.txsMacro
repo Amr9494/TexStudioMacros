@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ep + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ep",
+    "shortcut": "",
+    "tag": [
+        "\\epsilon"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ep",
+    "type": "Snippet"
+}

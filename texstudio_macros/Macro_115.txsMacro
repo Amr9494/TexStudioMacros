@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Ec + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Ec",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{E}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ec",
+    "type": "Snippet"
+}

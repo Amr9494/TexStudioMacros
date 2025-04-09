@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "tau + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "tau",
+    "shortcut": "",
+    "tag": [
+        "\\tau"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)tau",
+    "type": "Snippet"
+}

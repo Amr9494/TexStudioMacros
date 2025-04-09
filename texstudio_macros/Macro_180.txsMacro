@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "lrp + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "lrp",
+    "shortcut": "",
+    "tag": [
+        "\\left( %| \\right)"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrp",
+    "type": "Snippet"
+}

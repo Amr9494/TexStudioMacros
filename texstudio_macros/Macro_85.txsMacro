@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "sim + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "sim",
+    "shortcut": "",
+    "tag": [
+        "\\sim"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sim",
+    "type": "Snippet"
+}

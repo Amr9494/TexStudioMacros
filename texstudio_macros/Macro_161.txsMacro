@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "YYb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "YYb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{Y}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)YYb",
+    "type": "Snippet"
+}

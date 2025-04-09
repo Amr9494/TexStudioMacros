@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "cos + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "cos",
+    "shortcut": "",
+    "tag": [
+        "\\cos(%|)"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cos",
+    "type": "Snippet"
+}

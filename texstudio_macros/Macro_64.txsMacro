@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "mrm + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "mrm",
+    "shortcut": "",
+    "tag": [
+        "\\mathrm{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mrm",
+    "type": "Snippet"
+}

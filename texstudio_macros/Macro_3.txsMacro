@@ -1,0 +1,18 @@
+{
+    "abbrev": "",
+    "description": [
+        "mm + double spaces"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Equation",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation}",
+        "%|",
+        "\\end{equation}",
+        ""
+    ],
+    "trigger": "mm\\t",
+    "type": "Snippet"
+}

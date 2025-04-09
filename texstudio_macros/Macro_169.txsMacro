@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "info + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "info",
+    "shortcut": "",
+    "tag": [
+        "\int_{0}^{\\infty} %|"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)info",
+    "type": "Snippet"
+}

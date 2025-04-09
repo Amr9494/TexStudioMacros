@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "BBb + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "BBb",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{B}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)BBb",
+    "type": "Snippet"
+}

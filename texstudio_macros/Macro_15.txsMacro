@@ -1,0 +1,17 @@
+{
+    "abbrev": "",
+    "description": [
+        "align\t + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "align\t",
+    "shortcut": "",
+    "tag": [
+        "\\begin{align}",
+        "   %|",
+        "\\end{align}"
+    ],
+    "trigger": "align\t",
+    "type": "Snippet"
+}

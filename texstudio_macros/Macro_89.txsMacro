@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "xx + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "xx",
+    "shortcut": "",
+    "tag": [
+        "\\times"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)xx",
+    "type": "Snippet"
+}

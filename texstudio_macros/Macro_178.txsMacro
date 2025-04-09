@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "floor + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "floor",
+    "shortcut": "",
+    "tag": [
+        "\\lfloor %|\\rfloor"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)floor",
+    "type": "Snippet"
+}

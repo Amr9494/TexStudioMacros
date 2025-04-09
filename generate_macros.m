@@ -1,0 +1,293 @@
+%--------------------------------------------------------------------------
+% Author:        Amr Abbas
+% Date:          09-Apr-2025
+%
+% Description:   A script to automate macro generation for TexStudio. 
+%                Inspired by the wrok of LatexSuit for Obsidian.
+%                
+% Notes:         Definitely, it will need more enhancements. 
+%
+% Some sources:  https://github.com/texstudio-org/texstudio/issues/3274
+%                https://github.com/artisticat1/obsidian-latex-suite/blob/main/src/default_snippets.js
+%--------------------------------------------------------------------------
+clc
+clear
+close all
+
+% Define the list of triggers and their corresponding replacements
+triggers = {
+
+% start the counter after the last number of my macros
+% -->  My Macros
+
+% General
+% 1% TemplatFast
+% 2% Figure
+% 3% subfigure
+% 4% Equation
+% 5% inline math
+% 6% space
+
+%  Environments -> need to be done manually for visualization
+% 7% "pmat\t", "\\begin{pmatrix}%|\\end{pmatrix}";
+% 8% "bmat\t", "\\begin{bmatrix}%|\\end{bmatrix}";
+% 9% "Bmat\t", "\\begin{Bmatrix}%|\\end{Bmatrix}";
+% 10% "vmat\t", "\\begin{vmatrix}%|\\end{vmatrix}";
+% 11% "Vmat\t", "\\begin{Vmatrix}%|\\end{Vmatrix}";
+% 12% "matrix\t", "\\begin{matrix}%|\\end{matrix}";
+% 13% "cases\t", "\\begin{cases}%|\\end{cases}";
+% 14% "align\t", "\\begin{align}%|\\end{align}";
+% 15% "array\t", "\\begin{array}%|\\end{array}";
+% 16% "split\t,\\begin{equation}\\n\\t\\begin{split}%|\\n\\t\\end{split}\\end{equation}
+
+%  Built-in Macros
+% 17% Toggle case
+% 18% automatic lable
+
+% Greek
+"al", "\\alpha";
+"be", "\\beta";
+"ga", "\\gamma";
+"Ga", "\\Gamma";
+"de", "\\delta";
+"De", "\\Delta";
+"ep", "\\epsilon";
+"va", "\\varepsilon";
+"ze", "\\zeta";
+"th", "\\theta";
+"Th", "\\Theta";
+"vt", "\\vartheta";
+"io", "\\iota";
+"ka", "\\kappa";
+"lam", "\\lambda";
+"Lam", "\\Lambda";
+"sig", "\\sigma";
+"Sig", "\\Sigma";
+"up", "\\upsilon";
+"Up", "\\Upsilon";
+"om", "\\omega";
+"Om", "\\Omega";
+"pi", "\\pi";
+"eta", "\\eta";
+"mu", "\\mu";
+"nu", "\\nu";
+"xi", "\\xi";
+"Xi", "\\Xi";
+"rho", "\\rho";
+"tau", "\\tau";
+"phi", "\\phi";
+"Phi", "\\Phi";
+"psi", "\\psi";
+"Psi", "\\Psi";
+
+% Math Notations (Using %| for cursor placement)
+"sr", "^{2}";
+"cb", "^{3}";
+"rd", "^{%|}";
+"_", "_{%|}";
+"sq", "\\sqrt{%|}";
+"invs", "^{-1}";
+"ee", "e^{%|}";
+"ln", "\ln(%|)";
+"//", "\\frac{%|}{}";
+"conj", "^{*}";
+
+% Font operations
+"bf", "\\mathbf{%|}";
+"mrm", "\\mathrm{%|}";
+"bs", "\\\boldsymbol{%|}";
+
+% Symbol operations
+"hat", "\\hat{%|}";
+"bar", "\\bar{%|}";
+"dot", "\\dot{%|}";
+"ddo", "\\ddot{%|}";
+"tild", "\\tilde{%|}";
+"und", "\\underline{%|}";
+"vec", "\\vec{%|}"
+
+% text inside math
+"text", "\\text{%|}";
+
+%Trignometric
+"cos", "\\cos(%|)";
+"sin", "\\sin(%|)";
+"tan", "\\tan(%|)";
+
+% Symbols
+"ooo"  , "\\infty";
+"sum"  , "\\sum";
+"prod" , "\\prod";
+"summ" , "\sum_{%|}^{}";
+"prodd", "\prod_{%|}^{}";
+"lim" , "\\lim_{%| \\to }";
+"pm"  , "\\pm";
+"mp"  , "\\mp";
+"sim" , "\\sim";
+"simeq" , "\\simeq";
+"prop" , "\\propto";
+"nabla", "\\nabla";
+"xx"  , "\\times";
+
+% Dots
+"cd"  , "\\cdot";
+"vd"  , "\\vdots";
+"dos"  , "\\dots";
+
+% Arrows
+"==="  , "\\equiv";
+"!="   , "\\neq";
+">="   , "\\geq";
+"<="   , "\\leq";
+">>"   , "\\gg";
+"<<"   , "\\ll ";
+"<->"  , "\\leftrightarrow ";
+"->"   , "\\to";
+"!>"   , "\\mapsto";
+"=>"   , "\\implies";
+"=<"   , "\\impliedby";
+
+% Sets
+"and"  , "\\cap";
+"orr"  , "\\cup";
+"inn"  , "\\in";
+"notin", "\\not\in";
+"=sub" , "\\subseteq";
+"=su" , "\\supseteq";
+"eset" , "\\emptyset";
+
+% MathCal
+"Ac", "\\mathcal{A}";
+"Bc", "\\mathcal{B}";
+"Cc", "\\mathcal{C}";
+"Dc", "\\mathcal{D}";
+"Ec", "\\mathcal{E}";
+"Fc", "\\mathcal{F}";
+"Gc", "\\mathcal{G}";
+"Hc", "\\mathcal{H}";
+"Ic", "\\mathcal{I}";
+"Jc", "\\mathcal{J}";
+"Kc", "\\mathcal{K}";
+"Lc", "\\mathcal{L}";
+"Mc", "\\mathcal{M}";
+"Nc", "\\mathcal{N}";
+"Oc", "\\mathcal{O}";
+"Pc", "\\mathcal{P}";
+"Qc", "\\mathcal{Q}";
+"Rc", "\\mathcal{R}";
+"Sc", "\\mathcal{S}";
+"Tc", "\\mathcal{T}";
+"Uc", "\\mathcal{U}";
+"Vc", "\\mathcal{V}";
+"Wc", "\\mathcal{W}";
+"Xc", "\\mathcal{X}";
+"Yc", "\\mathcal{Y}";
+"Zc", "\\mathcal{Z}";
+
+% MathB
+"AAb", "\\mathbb{A}";
+"BBb", "\\mathbb{B}";
+"CCb", "\\mathbb{C}";
+"DDb", "\\mathbb{D}";
+"EEb", "\\mathbb{E}";
+"FFb", "\\mathbb{F}";
+"GGb", "\\mathbb{G}";
+"HHb", "\\mathbb{H}";
+"IIb", "\\mathbb{I}";
+"JJb", "\\mathbb{J}";
+"KKb", "\\mathbb{K}";
+"LLb", "\\mathbb{L}";
+"MMb", "\\mathbb{M}";
+"NNb", "\\mathbb{N}";
+"OOb", "\\mathbb{O}";
+"PPb", "\\mathbb{P}";
+"QQb", "\\mathbb{Q}";
+"RRb", "\\mathbb{R}";
+"SSb", "\\mathbb{S}";
+"TTb", "\\mathbb{T}";
+"UUb", "\\mathbb{U}";
+"VVb", "\\mathbb{V}";
+"WWb", "\\mathbb{W}";
+"XXb", "\\mathbb{X}";
+"YYb", "\\mathbb{Y}";
+"ZZb", "\\mathbb{Z}";
+
+%  Derivatives and integrals
+"par", "\\frac{ \\partial %| }{ \\partial  }";
+"ddt", "\\frac{d%|}{dt}";
+"int", "\\int";
+"intd", "\int_{%|}^{}";
+"into", "\oint";
+"inti", "\iint";
+"info", "\int_{0}^{\\infty} %|";
+"infi", "\int_{-\\infty}^{\\infty} %| ";
+
+%   Visual operations
+"ub", "\\underbrace{ %| }_{}";
+"ob", "\\overbrace{ %| }^{}";
+"us", "\\underset{ }{ %| }";
+% "can", "\\cancel{ %| }";
+% "canz", "\\cancelto{ }{ %| }";
+
+
+
+% Brackets
+"avg", "\\angle %| \\rangle";
+"norm", "\\lvert %| \\rvert";
+"Norm", "\\lVert %| \\rVert";
+"ceil", "\\lceil %| \\rceil";
+"floor", "\\lfloor %|\\rfloor";
+"mod", "|%||";
+"lrp", "\\left( %| \\right)";
+"lrc", "\\left\\{ %| \\right\\}";
+"lrb", "\\left[ %| \\right]";
+"lrbar", "\\left| %| \\right|";
+"lra", "\\left< %| \\right>";
+};
+
+
+
+% Output folder for the individual macro files
+outputFolder = 'texstudio_macros'; % Change this to your desired folder path
+if ~exist(outputFolder, 'dir')
+    mkdir(outputFolder);
+end
+
+% Loop through each trigger and generate a .txsMacro file
+for i = 1:size(triggers, 1)
+    trigger = triggers{i, 1};
+    replacement = triggers{i, 2};
+
+    % Define the content of the .txsMacro file
+    macroContent = sprintf([
+        '{\n', ...
+        '    "abbrev": "",\n', ...
+        '    "description": [\n', ...
+        '        "%s + space"\n', ...
+        '    ],\n', ...
+        '    "formatVersion": 2,\n', ...
+        '    "menu": "",\n', ...
+        '    "name": "%s",\n', ...
+        '    "shortcut": "",\n', ...
+        '    "tag": [\n', ...
+        '        "%s"\n', ...
+        '    ],\n', ...
+        '    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)%s",\n', ...
+        '    "type": "Snippet"\n', ...
+        '}\n'
+        ], trigger, trigger, replacement, trigger);
+
+    % Define the output file path with the .txsMacro extension
+    outputFile = fullfile(outputFolder, ['Macro_',num2str(i+18), '.txsMacro']); % <-- starting index = 19 according to my pre-defined macros at the beginning
+
+    % Write the macro content to the file
+    fid = fopen(outputFile, 'w');
+    if fid == -1
+        error('Unable to create file: %s', outputFile);
+    end
+    fprintf(fid, '%s', macroContent);
+    fclose(fid);
+
+    % Display status
+    fprintf('Macro file created: %s\n', outputFile);
+end

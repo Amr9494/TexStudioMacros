@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Yc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Yc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{Y}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Yc",
+    "type": "Snippet"
+}

@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "Pc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "Pc",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{P}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Pc",
+    "type": "Snippet"
+}

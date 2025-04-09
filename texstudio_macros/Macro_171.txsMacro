@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "ub + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "ub",
+    "shortcut": "",
+    "tag": [
+        "\\underbrace{ %| }_{}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ub",
+    "type": "Snippet"
+}

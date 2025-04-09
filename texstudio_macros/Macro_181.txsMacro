@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "lrc + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "lrc",
+    "shortcut": "",
+    "tag": [
+        "\\left\\{ %| \\right\\}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrc",
+    "type": "Snippet"
+}

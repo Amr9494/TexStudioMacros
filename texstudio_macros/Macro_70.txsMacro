@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        "tild + space"
+    ],
+    "formatVersion": 2,
+    "menu": "",
+    "name": "tild",
+    "shortcut": "",
+    "tag": [
+        "\\tilde{%|}"
+    ],
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)tild",
+    "type": "Snippet"
+}
