@@ -24,5 +24,7 @@ It will be good if the script is converted to python also
 
 ## Finally 
 You are free to modify or completely change whatever you like.
+This work was inspired by [LatexSuit](https://github.com/artisticat1/obsidian-latex-suite?tab=readme-ov-file#cheatsheet) 
+The gif credit is for them  
   
-  
+![demo (1)](https://github.com/user-attachments/assets/22a2f051-94d2-45c7-b342-0f7b6524c65a)
