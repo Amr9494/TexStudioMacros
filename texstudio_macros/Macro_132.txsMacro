@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Vc + space"
+        "mod + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Vc",
+    "name": "mod",
     "shortcut": "",
     "tag": [
-        "\\mathcal{V}"
+        "|%||"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Vc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mod",
     "type": "Snippet"
 }

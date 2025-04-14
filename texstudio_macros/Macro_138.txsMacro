@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "BBb + space"
+        "lra + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "BBb",
+    "name": "lra",
     "shortcut": "",
     "tag": [
-        "\\mathbb{B}"
+        "\\left< %| \\right>"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)BBb",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lra",
     "type": "Snippet"
 }

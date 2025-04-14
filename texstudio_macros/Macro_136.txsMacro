@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Zc + space"
+        "lrba + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Zc",
+    "name": "lrba",
     "shortcut": "",
     "tag": [
-        "\\mathcal{Z}"
+        "\\left| %| \\right|"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Zc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrba",
     "type": "Snippet"
 }

@@ -1,20 +1,19 @@
 {
     "abbrev": "",
     "description": [
-        "bmat\t + space"
+        "pmat\t + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "bmat\t",
+    "name": "pmat\t",
     "shortcut": "",
     "tag": [
         "\\begin{equation}",
-        "\t\\begin{bmatrix}",
+        "\t\\begin{pmatrix}",
         "      %|",
-        "    \\end{bmatrix}\t",
-        "\\end{equation}",
-        ""
+        "    \\end{pmatrix}\t",
+        "\\end{equation}"
     ],
-    "trigger": "bmat\t",
+    "trigger": "pmat\t",
     "type": "Snippet"
 }

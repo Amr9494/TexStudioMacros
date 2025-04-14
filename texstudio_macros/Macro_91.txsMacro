@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "vd + space"
+        "xx + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "vd",
+    "name": "xx",
     "shortcut": "",
     "tag": [
-        "\\vdots"
+        "\\times"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)vd",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)xx",
     "type": "Snippet"
 }

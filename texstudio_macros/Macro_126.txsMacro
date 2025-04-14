@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Pc + space"
+        "avg + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Pc",
+    "name": "avg",
     "shortcut": "",
     "tag": [
-        "\\mathcal{P}"
+        "\\angle %| \\rangle"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Pc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)avg",
     "type": "Snippet"
 }

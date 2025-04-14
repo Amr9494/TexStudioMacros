@@ -1,20 +1,20 @@
 {
     "abbrev": "",
     "description": [
-        ""
+        "cases\t + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "split",
+    "name": "cases\t",
     "shortcut": "",
     "tag": [
         "\\begin{equation}",
-        "   \\begin{split}",
-        "       %|",
-        "   \\end{split}",
+        "   \\begin{cases}",
+        "    %|",
+        "   \\end{cases}",
         "\\end{equation}",
         ""
     ],
-    "trigger": "split\\t",
+    "trigger": "cases\t",
     "type": "Snippet"
 }

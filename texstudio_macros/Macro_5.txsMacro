@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "double space"
+        "mt + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "space",
+    "name": "Inline math",
     "shortcut": "",
     "tag": [
-        " & "
+        "$%|$"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split)  ",
+    "trigger": "mt\\t",
     "type": "Snippet"
 }

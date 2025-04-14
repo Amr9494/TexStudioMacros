@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "prop + space"
+        "sim + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "prop",
+    "name": "sim",
     "shortcut": "",
     "tag": [
-        "\\propto"
+        "\\sim"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)prop",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sim",
     "type": "Snippet"
 }

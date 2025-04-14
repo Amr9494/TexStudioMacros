@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Xc + space"
+        "lrc + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Xc",
+    "name": "lrc",
     "shortcut": "",
     "tag": [
-        "\\mathcal{X}"
+        "\\left\\{ %| \\right\\}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Xc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrc",
     "type": "Snippet"
 }

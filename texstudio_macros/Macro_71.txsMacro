@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "und + space"
+        "ddo + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "und",
+    "name": "ddo",
     "shortcut": "",
     "tag": [
-        "\\underline{%|}"
+        "\\ddot{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)und",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ddo",
     "type": "Snippet"
 }

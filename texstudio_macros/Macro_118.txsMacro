@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Hc + space"
+        "intb + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Hc",
+    "name": "intb",
     "shortcut": "",
     "tag": [
-        "\\mathcal{H}"
+        "\int_{%|}^{}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Hc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)intb",
     "type": "Snippet"
 }

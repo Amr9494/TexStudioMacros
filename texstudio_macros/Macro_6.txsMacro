@@ -1,19 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "pmat\t + space"
+        "double space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "pmat\t",
+    "name": "space",
     "shortcut": "",
     "tag": [
-        "\\begin{equation}",
-        "\t\\begin{pmatrix}",
-        "      %|",
-        "    \\end{pmatrix}\t",
-        "\\end{equation}"
+        " & "
     ],
-    "trigger": "pmat\t",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split)  ",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Cc + space"
+        "mca + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Cc",
+    "name": "mca",
     "shortcut": "",
     "tag": [
-        "\\mathcal{C}"
+        "\\mathcal{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Cc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mca",
     "type": "Snippet"
 }

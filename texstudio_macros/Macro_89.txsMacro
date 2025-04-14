@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "xx + space"
+        "prop + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "xx",
+    "name": "prop",
     "shortcut": "",
     "tag": [
-        "\\times"
+        "\\propto"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)xx",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)prop",
     "type": "Snippet"
 }

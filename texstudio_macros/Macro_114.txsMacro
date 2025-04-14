@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Dc + space"
+        "mbb + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Dc",
+    "name": "mbb",
     "shortcut": "",
     "tag": [
-        "\\mathcal{D}"
+        "\\mathbb{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Dc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mbb",
     "type": "Snippet"
 }

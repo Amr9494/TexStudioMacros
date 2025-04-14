@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "sr + space"
+        "sp + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "sr",
+    "name": "sp",
     "shortcut": "",
     "tag": [
         "^{2}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sr",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sp",
     "type": "Snippet"
 }

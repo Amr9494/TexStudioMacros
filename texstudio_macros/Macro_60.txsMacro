@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "ln + space"
+        "invs + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "ln",
+    "name": "invs",
     "shortcut": "",
     "tag": [
-        "\ln(%|)"
+        "^{-1}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ln",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)invs",
     "type": "Snippet"
 }

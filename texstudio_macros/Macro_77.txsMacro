@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "ooo + space"
+        "sin + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "ooo",
+    "name": "sin",
     "shortcut": "",
     "tag": [
-        "\\infty"
+        "\\sin(%|)"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ooo",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sin",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "inn + space"
+        "and + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "inn",
+    "name": "and",
     "shortcut": "",
     "tag": [
-        "\\in"
+        "\\cap"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)inn",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)and",
     "type": "Snippet"
 }

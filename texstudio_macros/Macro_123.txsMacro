@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Mc + space"
+        "ub + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Mc",
+    "name": "ub",
     "shortcut": "",
     "tag": [
-        "\\mathcal{M}"
+        "\\underbrace{ %| }_{}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Mc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ub",
     "type": "Snippet"
 }

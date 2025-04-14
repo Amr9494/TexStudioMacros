@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "AAb + space"
+        "lrbba + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "AAb",
+    "name": "lrbba",
     "shortcut": "",
     "tag": [
-        "\\mathbb{A}"
+        "\\left\\| %| \\right\\|"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)AAb",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrbba",
     "type": "Snippet"
 }

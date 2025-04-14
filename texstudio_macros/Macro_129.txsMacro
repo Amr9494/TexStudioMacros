@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Sc + space"
+        "Norm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Sc",
+    "name": "Norm",
     "shortcut": "",
     "tag": [
-        "\\mathcal{S}"
+        "\\lVert %| \\rVert"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Sc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Norm",
     "type": "Snippet"
 }

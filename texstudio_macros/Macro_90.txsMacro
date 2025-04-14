@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "cd + space"
+        "nabla + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "cd",
+    "name": "nabla",
     "shortcut": "",
     "tag": [
-        "\\cdot"
+        "\\nabla"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cd",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)nabla",
     "type": "Snippet"
 }

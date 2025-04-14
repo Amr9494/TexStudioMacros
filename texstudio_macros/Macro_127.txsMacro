@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Qc + space"
+        "norm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Qc",
+    "name": "norm",
     "shortcut": "",
     "tag": [
-        "\\mathcal{Q}"
+        "\\lvert %| \\rvert"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Qc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)norm",
     "type": "Snippet"
 }

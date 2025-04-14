@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "dos + space"
+        "cd + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "dos",
+    "name": "cd",
     "shortcut": "",
     "tag": [
-        "\\dots"
+        "\\cdot"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)dos",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cd",
     "type": "Snippet"
 }

@@ -1,15 +1,19 @@
 {
     "abbrev": "",
     "description": [
-        "mt + space"
+        ""
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Inline math",
+    "name": "SubEq",
     "shortcut": "",
     "tag": [
-        "$%|$"
+        "\\begin{subequations}",
+        "\t\\begin{align}",
+        "\t\t%|",
+        "\t\\end{align}",
+        "\\end{subequations}"
     ],
-    "trigger": "mt\\t",
+    "trigger": "subeq\\t",
     "type": "Snippet"
 }

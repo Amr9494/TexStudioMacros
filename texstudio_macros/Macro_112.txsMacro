@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Bc + space"
+        "eset + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Bc",
+    "name": "eset",
     "shortcut": "",
     "tag": [
-        "\\mathcal{B}"
+        "\\emptyset"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Bc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)eset",
     "type": "Snippet"
 }

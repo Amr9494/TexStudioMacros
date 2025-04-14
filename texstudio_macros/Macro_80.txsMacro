@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "summ + space"
+        "sum + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "summ",
+    "name": "sum",
     "shortcut": "",
     "tag": [
-        "\sum_{%|}^{}"
+        "\\sum"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)summ",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sum",
     "type": "Snippet"
 }

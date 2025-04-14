@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Kc + space"
+        "info + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Kc",
+    "name": "info",
     "shortcut": "",
     "tag": [
-        "\\mathcal{K}"
+        "\int_{0}^{\\infty} %|"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Kc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)info",
     "type": "Snippet"
 }

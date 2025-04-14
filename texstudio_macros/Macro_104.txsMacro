@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "and + space"
+        "=> + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "and",
+    "name": "=>",
     "shortcut": "",
     "tag": [
-        "\\cap"
+        "\\implies"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)and",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=>",
     "type": "Snippet"
 }

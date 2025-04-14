@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Jc + space"
+        "inti + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Jc",
+    "name": "inti",
     "shortcut": "",
     "tag": [
-        "\\mathcal{J}"
+        "\iint"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Jc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)inti",
     "type": "Snippet"
 }

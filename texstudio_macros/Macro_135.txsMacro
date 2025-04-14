@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Yc + space"
+        "lrbr + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Yc",
+    "name": "lrbr",
     "shortcut": "",
     "tag": [
-        "\\mathcal{Y}"
+        "\\left[ %| \\right]"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Yc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrbr",
     "type": "Snippet"
 }

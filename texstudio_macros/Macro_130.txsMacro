@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Tc + space"
+        "ceil + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Tc",
+    "name": "ceil",
     "shortcut": "",
     "tag": [
-        "\\mathcal{T}"
+        "\\lceil %| \\rceil"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Tc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ceil",
     "type": "Snippet"
 }

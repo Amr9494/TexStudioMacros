@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "simeq + space"
+        "mp + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "simeq",
+    "name": "mp",
     "shortcut": "",
     "tag": [
-        "\\simeq"
+        "\\mp"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)simeq",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mp",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "mp + space"
+        "lim + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "mp",
+    "name": "lim",
     "shortcut": "",
     "tag": [
-        "\\mp"
+        "\\lim_{%| \\to }"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mp",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lim",
     "type": "Snippet"
 }

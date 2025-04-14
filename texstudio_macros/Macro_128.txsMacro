@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Rc + space"
+        "norm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Rc",
+    "name": "norm",
     "shortcut": "",
     "tag": [
-        "\\mathcal{R}"
+        "\\lvert %| \\rvert"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Rc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)norm",
     "type": "Snippet"
 }

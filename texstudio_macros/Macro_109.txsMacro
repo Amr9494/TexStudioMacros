@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "=su + space"
+        "notin + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "=su",
+    "name": "notin",
     "shortcut": "",
     "tag": [
-        "\\supseteq"
+        "\\not\in"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=su",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)notin",
     "type": "Snippet"
 }

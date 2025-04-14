@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Ec + space"
+        "par + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Ec",
+    "name": "par",
     "shortcut": "",
     "tag": [
-        "\\mathcal{E}"
+        "\\frac{ \\partial %| }{ \\partial  }"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ec",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)par",
     "type": "Snippet"
 }

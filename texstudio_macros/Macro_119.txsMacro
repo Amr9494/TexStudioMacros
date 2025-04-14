@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Ic + space"
+        "into + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Ic",
+    "name": "into",
     "shortcut": "",
     "tag": [
-        "\\mathcal{I}"
+        "\oint"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ic",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)into",
     "type": "Snippet"
 }

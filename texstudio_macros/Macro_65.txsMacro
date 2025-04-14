@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "bs + space"
+        "bf + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "bs",
+    "name": "bf",
     "shortcut": "",
     "tag": [
-        "\\boldsymbol{%|}"
+        "\\mathbf{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)bs",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)bf",
     "type": "Snippet"
 }

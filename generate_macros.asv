@@ -1,3 +1,17 @@
+% Need to be changed or added 
+% - bounded integral \intb
+% - remove the bmat from equation enviroment, it is needed like equation (17) in my paper
+% - add rmm as _{\mathrm{}}
+% - subequation enviroment Eq. 6 in the paper
+% \begin{subequations}
+% 		\begin{align}
+% 
+% 		\end{align}
+% 	\end{subequations}
+% - the norm and Norm Brackets have another version which is variable size, see them
+
+
+
 %--------------------------------------------------------------------------
 % Author:        Amr Abbas
 % Date:          09-Apr-2025
@@ -81,12 +95,10 @@ triggers = {
 "Psi", "\\Psi";
 
 % Math Notations (Using %| for cursor placement)
-"sp", "^{2}"; % power
-"cp", "^{3}";
-"rp", "^{%|}";
-"rmp","^{\\mathrm{%|}}";
+"sr", "^{2}";
+"cb", "^{3}";
+"rd", "^{%|}";
 "_", "_{%|}";
-"rmm","_{\\mathrm{%|}}";
 "sq", "\\sqrt{%|}";
 "invs", "^{-1}";
 "ee", "e^{%|}";
@@ -245,9 +257,9 @@ triggers = {
 "mod", "|%||";
 "lrp", "\\left( %| \\right)";
 "lrc", "\\left\\{ %| \\right\\}";
-"lrbr", "\\left[ %| \\right]";
-"lrba", "\\left| %| \\right|";
-"lrbba", "\\left\\| %| \\right\\|";
+"lrb", "\\left[ %| \\right]";
+"lrbar", "\\left| %| \\right|";
+"lrbbar", "\\left\| %| \\right\|";
 "lra", "\\left< %| \\right>";
 };
 

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "sim + space"
+        "pm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "sim",
+    "name": "pm",
     "shortcut": "",
     "tag": [
-        "\\sim"
+        "\\pm"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sim",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)pm",
     "type": "Snippet"
 }

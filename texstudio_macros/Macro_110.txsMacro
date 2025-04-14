@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "eset + space"
+        "=sub + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "eset",
+    "name": "=sub",
     "shortcut": "",
     "tag": [
-        "\\emptyset"
+        "\\subseteq"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)eset",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=sub",
     "type": "Snippet"
 }

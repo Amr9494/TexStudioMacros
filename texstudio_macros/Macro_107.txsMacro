@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "notin + space"
+        "orr + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "notin",
+    "name": "orr",
     "shortcut": "",
     "tag": [
-        "\\not\in"
+        "\\cup"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)notin",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)orr",
     "type": "Snippet"
 }

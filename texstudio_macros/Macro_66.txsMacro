@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "hat + space"
+        "mrm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "hat",
+    "name": "mrm",
     "shortcut": "",
     "tag": [
-        "\\hat{%|}"
+        "\\mathrm{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)hat",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mrm",
     "type": "Snippet"
 }

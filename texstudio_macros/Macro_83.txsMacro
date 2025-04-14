@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "pm + space"
+        "prodd + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "pm",
+    "name": "prodd",
     "shortcut": "",
     "tag": [
-        "\\pm"
+        "\prod_{%|}^{}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)pm",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)prodd",
     "type": "Snippet"
 }

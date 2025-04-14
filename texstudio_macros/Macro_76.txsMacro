@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "tan + space"
+        "cos + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "tan",
+    "name": "cos",
     "shortcut": "",
     "tag": [
-        "\\tan(%|)"
+        "\\cos(%|)"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)tan",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)cos",
     "type": "Snippet"
 }

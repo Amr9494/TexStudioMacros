@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "invs + space"
+        "rmm + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "invs",
+    "name": "rmm",
     "shortcut": "",
     "tag": [
-        "^{-1}"
+        "_{\\mathrm{%|}}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)invs",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)rmm",
     "type": "Snippet"
 }

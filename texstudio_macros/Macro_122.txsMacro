@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Lc + space"
+        "infi + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Lc",
+    "name": "infi",
     "shortcut": "",
     "tag": [
-        "\\mathcal{L}"
+        "\int_{-\\infty}^{\\infty} %| "
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Lc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)infi",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "=== + space"
+        "vd + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "===",
+    "name": "vd",
     "shortcut": "",
     "tag": [
-        "\\equiv"
+        "\\vdots"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)===",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)vd",
     "type": "Snippet"
 }

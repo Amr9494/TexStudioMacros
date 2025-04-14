@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Wc + space"
+        "lrp + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Wc",
+    "name": "lrp",
     "shortcut": "",
     "tag": [
-        "\\mathcal{W}"
+        "\\left( %| \\right)"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Wc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)lrp",
     "type": "Snippet"
 }

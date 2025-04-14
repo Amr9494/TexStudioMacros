@@ -1,20 +1,19 @@
 {
     "abbrev": "",
     "description": [
-        "cases\t + space"
+        "array\t + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "cases\t",
+    "name": "array\t",
     "shortcut": "",
     "tag": [
         "\\begin{equation}",
-        "   \\begin{cases}",
+        "   \\begin{array}",
         "    %|",
-        "   \\end{cases}",
-        "\\end{equation}",
-        ""
+        "   \\end{array}",
+        "\\end{equation}"
     ],
-    "trigger": "cases\t",
+    "trigger": "array\t",
     "type": "Snippet"
 }

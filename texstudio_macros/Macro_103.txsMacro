@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "=< + space"
+        "!> + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "=<",
+    "name": "!>",
     "shortcut": "",
     "tag": [
-        "\\impliedby"
+        "\\mapsto"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=<",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)!>",
     "type": "Snippet"
 }

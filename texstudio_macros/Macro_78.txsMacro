@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "sum + space"
+        "tan + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "sum",
+    "name": "tan",
     "shortcut": "",
     "tag": [
-        "\\sum"
+        "\\tan(%|)"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sum",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)tan",
     "type": "Snippet"
 }

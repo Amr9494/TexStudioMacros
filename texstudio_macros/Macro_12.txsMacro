@@ -1,19 +1,19 @@
 {
     "abbrev": "",
     "description": [
-        "array\t + space"
+        "matrix\t + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "array\t",
+    "name": "matrix\t",
     "shortcut": "",
     "tag": [
         "\\begin{equation}",
-        "   \\begin{array}",
-        "    %|",
-        "   \\end{array}",
+        "\t\\begin{matrix}",
+        "      %|",
+        "    \\end{matrix}\t",
         "\\end{equation}"
     ],
-    "trigger": "array\t",
+    "trigger": "matrix\t",
     "type": "Snippet"
 }

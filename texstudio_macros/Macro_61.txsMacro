@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "// + space"
+        "ee + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "//",
+    "name": "ee",
     "shortcut": "",
     "tag": [
-        "\\frac{%|}{}"
+        "e^{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)//",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)ee",
     "type": "Snippet"
 }

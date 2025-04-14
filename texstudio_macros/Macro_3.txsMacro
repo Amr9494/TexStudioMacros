@@ -10,8 +10,7 @@
     "tag": [
         "\\begin{equation}",
         "%|",
-        "\\end{equation}",
-        ""
+        "\\end{equation}"
     ],
     "trigger": "mm\\t",
     "type": "Snippet"

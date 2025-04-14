@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "nabla + space"
+        "simeq + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "nabla",
+    "name": "simeq",
     "shortcut": "",
     "tag": [
-        "\\nabla"
+        "\\simeq"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)nabla",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)simeq",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Ac + space"
+        "=su + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Ac",
+    "name": "=su",
     "shortcut": "",
     "tag": [
-        "\\mathcal{A}"
+        "\\supseteq"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Ac",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=su",
     "type": "Snippet"
 }

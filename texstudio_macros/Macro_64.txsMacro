@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "mrm + space"
+        "conj + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "mrm",
+    "name": "conj",
     "shortcut": "",
     "tag": [
-        "\\mathrm{%|}"
+        "^{*}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)mrm",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)conj",
     "type": "Snippet"
 }

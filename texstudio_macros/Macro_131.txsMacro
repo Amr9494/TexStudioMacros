@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "Uc + space"
+        "floor + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "Uc",
+    "name": "floor",
     "shortcut": "",
     "tag": [
-        "\\mathcal{U}"
+        "\\lfloor %|\\rfloor"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)Uc",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)floor",
     "type": "Snippet"
 }

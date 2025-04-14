@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "orr + space"
+        "=< + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "orr",
+    "name": "=<",
     "shortcut": "",
     "tag": [
-        "\\cup"
+        "\\impliedby"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)orr",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=<",
     "type": "Snippet"
 }

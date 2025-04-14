@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "=sub + space"
+        "inn + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "=sub",
+    "name": "inn",
     "shortcut": "",
     "tag": [
-        "\\subseteq"
+        "\\in"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)=sub",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)inn",
     "type": "Snippet"
 }

@@ -1,15 +1,15 @@
 {
     "abbrev": "",
     "description": [
-        "sq + space"
+        "_ + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "sq",
+    "name": "_",
     "shortcut": "",
     "tag": [
-        "\\sqrt{%|}"
+        "_{%|}"
     ],
-    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)sq",
+    "trigger": "(?inEnv:math,matrix,bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,split,cases)_",
     "type": "Snippet"
 }

@@ -1,19 +1,19 @@
 {
     "abbrev": "",
     "description": [
-        "matrix\t + space"
+        "Vmat\t + space"
     ],
     "formatVersion": 2,
     "menu": "",
-    "name": "matrix\t",
+    "name": "Vmat\t",
     "shortcut": "",
     "tag": [
         "\\begin{equation}",
-        "\t\\begin{matrix}",
+        "\t\\begin{Vmatrix}",
         "      %|",
-        "    \\end{matrix}\t",
+        "    \\end{Vmatrix}\t",
         "\\end{equation}"
     ],
-    "trigger": "matrix\t",
+    "trigger": "Vmat\t",
     "type": "Snippet"
 }
